@@ -1,7 +1,7 @@
 //O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
 let listaAmigos = []
 
-let tamanhoLista = 5;
+let tamanhoLista = 5; // variável que define a quantidade de nomes na lista
 
 function adicionarAmigo(){
     if(listaAmigos.length == tamanhoLista){
@@ -18,11 +18,7 @@ function adicionarAmigo(){
             novoItem.textContent = element;
             lista.appendChild(novoItem);
         }
-    
-        console.log(listaAmigos);
     }
-    
-    // document.getElementById('amigo').value = "";
     document.querySelector('input').value = "";
 }
 
@@ -34,5 +30,4 @@ function sortearAmigo(){
     itemResult.textContent = listaAmigos[sorteio];
     resultado.appendChild(itemResult)
     document.getElementById('listaAmigos').textContent = "";
-    console.log(listaAmigos[sorteio])
 }
