@@ -1,8 +1,10 @@
 //O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
 let listaAmigos = []
 
+let tamanhoLista = 5;
+
 function adicionarAmigo(){
-    if(listaAmigos.length == 5){
+    if(listaAmigos.length == tamanhoLista){
         alert('Lista de amigos cheia!')
     }else{
         let nome = document.querySelector('input').value;
